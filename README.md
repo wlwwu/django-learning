@@ -39,6 +39,13 @@ python3 manage.py createsuperuser
 
 ##enable django admin
 
+##APIView and ViewSet
+1.APIView--need full control over your logic
+         --processing files and rendering a synchoronous response
+         --You are calling other APIs /services
+         --Access local files or data
 
+
+##serializer
 
 
