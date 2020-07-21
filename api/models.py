@@ -7,12 +7,12 @@ from django.contrib.auth.models import BaseUserManager
 class UserProfileManager(BaseUserManager):
     """Manager for user profiles"""
 
-    def create_user(sefl,email,name,password=None):
+    def create_user(self,email,name,password=None):
         """create a new user profile"""
         if not email:
            raise VauleError("user must have an email address")
         
-        email = sef.normalize_email(email)
+        email = self.normalize_email(email)
         user = self.model(email=email,name=name)
         
         user.set_password(password)

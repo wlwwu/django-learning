@@ -34,6 +34,10 @@ error: django.db.migrations.exceptions.InconsistentMigrationHistory: Migration a
 Delete the _pycache_ and the 0001_initial files.
 Delete the db.sqlite3 from the root directory (be careful all your data will go away).
 
+##create super user
+python3 manage.py createsuperuser
+
+##enable django admin
 
 
 
