@@ -45,7 +45,18 @@ python3 manage.py createsuperuser
          --You are calling other APIs /services
          --Access local files or data
 
+2.ViewSet--takes care of a lot of typical logic for you
+         --perfect for standard database operations
+         --fastest way to make a database interface
+         --a Simple CRUD interface to your database
+         --a quick and simple api
+         --little to no customization on the logic
+         --working with standard data structure
 
 ##serializer
 
+
+##viewset case
+1.views creation
+2.url router creation
 
