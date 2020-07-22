@@ -60,3 +60,19 @@ python3 manage.py createsuperuser
 1.views creation
 2.url router creation
 
+
+##create profile api
+
+##create profiles viewset
+
+
+##register profile viewset with url router
+
+
+
+##create permission a profile
+create a new permission.py file
+
+##add authentication and permissions to viewset
+
+
