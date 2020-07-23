@@ -76,3 +76,8 @@ create a new permission.py file
 ##add authentication and permissions to viewset
 
 
+##add search profiles
+
+
+##add search profiles feature
+add new viewsets
