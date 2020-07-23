@@ -81,3 +81,10 @@ create a new permission.py file
 
 ##add search profiles feature
 add new viewsets
+
+
+##add loging api view
+new view: UserLoginApiView
+/api/login/   get a token
+/api/profile/1  add Authorization  Token xxxx to your request header 
+only after that you can have access to modify your profile
